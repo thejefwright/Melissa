@@ -31,20 +31,16 @@ ul {
   padding: 0;
 }
 li {
-  display: block;
+  display: inline-block;
 }
 .nav {
   position: fixed;
   display: flex;
-  left: -100%;
+  margin-left: -100%;
+  /* left: -100%; */
   justify-content: space-around;
   align-content: center;
   width: 100%;
-  transition-property: transform;
-  transition-timing-function: ease-out;
-  transition-duration: 400ms;
-  transition-delay: 700ms;
-  transform: translateX(100%);
   -webkit-transition-property: -webkit-transform;
   -webkit-transition-timing-function: ease-out;
   -webkit-transition-duration: 400ms;
@@ -55,6 +51,11 @@ li {
   -ms-transition-duration: 400ms;
   -ms-transition-delay: 700ms;
   -ms-transform: translateX(100%);
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  transition-duration: 400ms;
+  transition-delay: 700ms;
+  transform: translateX(100%);
 }
 
 .logo {
