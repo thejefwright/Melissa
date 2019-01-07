@@ -23,6 +23,7 @@ body {
   height: 100vh;
   background-color: #01c3cc;
   clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%);
 }
 .nav {
   left: -100%;
