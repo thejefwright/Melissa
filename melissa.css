@@ -47,6 +47,10 @@ ul {
   -webkit-transition-duration: 400ms;
   -webkit-transition-delay: 700ms;
   -webkit-transform: translateX(100%);
+  -ms-transition-property: transform;
+  -ms-transition-timing-function: ease-out;
+  -ms-transition-duration: 400ms;
+  -ms-transition-delay: 700ms;
   -ms-transform: translateX(100%);
 }
 
