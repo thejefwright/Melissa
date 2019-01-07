@@ -63,5 +63,5 @@ body {
   max-width: 60%;
   /* min-width: 400px; */
   clip-path: circle(35% at 52% 30%); 
-  
+  -webkit-clip-path: circle(35% at 52% 30%); 
 }
