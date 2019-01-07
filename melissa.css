@@ -35,6 +35,11 @@ body {
   transition-duration: 400ms;
   transition-delay: 700ms;
   transform: translateX(100%);
+  webkit-transition-property: transform;
+  webkit-transition-timing-function: ease-out;
+  webkit-transition-duration: 400ms;
+  webkit-transition-delay: 700ms;
+  webkit-transform: translateX(100%);
 }
 
 .logo {
@@ -61,7 +66,7 @@ body {
 
 .headshot {
   max-width: 60%;
-  /* min-width: 400px; */
+  height: auto;
   clip-path: circle(35% at 52% 30%); 
   -webkit-clip-path: circle(35% at 52% 30%); 
 }
