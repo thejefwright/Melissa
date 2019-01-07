@@ -27,7 +27,6 @@ body {
 }
 .nav {
   left: -100%;
-  -webkit-left: 100%;
   position: fixed;
   display: flex;
   width: 100%;
@@ -36,14 +35,10 @@ body {
   transition-duration: 400ms;
   transition-delay: 700ms;
   transform: translateX(100%);
-  -webkit-transition-property: transform;
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 400ms;
-  -webkit-transition-delay: 700ms;
-  -webkit-transform: translateX(100%);
 }
 
 .logo {
+  list-style: none;
   padding-left: 8px;
   color: coral;
   font-size: 4em;
