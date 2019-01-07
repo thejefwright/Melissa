@@ -35,11 +35,11 @@ body {
   transition-duration: 400ms;
   transition-delay: 700ms;
   transform: translateX(100%);
-  webkit-transition-property: transform;
-  webkit-transition-timing-function: ease-out;
-  webkit-transition-duration: 400ms;
-  webkit-transition-delay: 700ms;
-  webkit-transform: translateX(100%);
+  -webkit-transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 400ms;
+  -webkit-transition-delay: 700ms;
+  -webkit-transform: translateX(100%);
 }
 
 .logo {
