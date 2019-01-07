@@ -28,13 +28,12 @@ body {
   -webkit-clip-path: polygon(100% 30%, 100% 100%, 0 100%, 0 70%);
 }
 ul {
-  margin: 0;
   padding: 0;
 }
 .nav {
-  left: -100%;
   position: fixed;
   display: flex;
+  left: -100%;
   justify-content: space-around;
   align-content: center;
   width: 100%;
