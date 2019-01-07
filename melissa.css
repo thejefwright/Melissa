@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   background: white;
   height: 100vw;
@@ -32,7 +32,7 @@ body {
   left: -100%;
   position: fixed;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100%;
   transition-property: transform;
   transition-timing-function: ease-out;
