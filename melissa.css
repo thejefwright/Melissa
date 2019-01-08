@@ -2,11 +2,9 @@
 body {
   margin: 0;
   padding: 0;
-  background: white;
 }
 
 .background {
-  /* display: flex; */
   width: 100%;
   height: auto;
   position: relative;
@@ -24,12 +22,13 @@ body {
   clip-path: polygon(100% 20%, 100% 100%, 0 100%, 0 80%);
   -webkit-clip-path: polygon(100% 20%, 100% 100%, 0 100%, 0 80%);
 }
-ul {
-  padding: 0;
-  /* display: block; */
-}
 
 .nav {
+  padding: 0;
+  display: block;
+}
+
+.navul {
   position: fixed;
   display: flex;
   justify-content: center;
@@ -40,11 +39,11 @@ ul {
   -webkit-transition-duration: 400ms;
   -webkit-transition-delay: 700ms;
   -webkit-transform: translateX(100%);
-  /* -ms-transition-property: transform;
+  -ms-transition-property: all;
   -ms-transition-timing-function: ease-out;
   -ms-transition-duration: 400ms;
   -ms-transition-delay: 700ms;
-  -ms-transform: translateX(100%); */
+  -ms-transform: translateX(100%);
   transition-property: all;
   transition-timing-function: ease-out;
   transition-duration: 400ms;
