@@ -35,7 +35,7 @@ ul {
   justify-content: center;
   width: 100%;
   left: -100vw;
-  -webkit-transition-property: transform;
+  -webkit-transition-property: all;
   -webkit-transition-timing-function: ease-out;
   -webkit-transition-duration: 400ms;
   -webkit-transition-delay: 700ms;
@@ -45,7 +45,7 @@ ul {
   -ms-transition-duration: 400ms;
   -ms-transition-delay: 700ms;
   -ms-transform: translateX(100%); */
-  transition-property: transform;
+  transition-property: all;
   transition-timing-function: ease-out;
   transition-duration: 400ms;
   transition-delay: 700ms;
