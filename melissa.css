@@ -24,11 +24,11 @@ body {
 }
 
 .nav {
-  padding: 0;
   display: block;
 }
 
 .navul {
+  padding: 0;
   position: fixed;
   display: flex;
   justify-content: center;
