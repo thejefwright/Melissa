@@ -29,18 +29,23 @@ body {
 }
 ul {
   padding: 0;
-  display: inline-block;
+  display: block;
+  left: -100%;
+  width: 100%;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  transition-duration: 400ms;
+  transition-delay: 700ms;
+  transform: translateX(100%);
 }
 
 .nav {
   position: fixed;
   display: flex;
-  margin-left: -100%;
   /* left: -100%; */
   justify-content: space-around;
   align-content: center;
-  width: 100%;
-  -webkit-transition-property: transform;
+  /* -webkit-transition-property: transform;
   -webkit-transition-timing-function: ease-out;
   -webkit-transition-duration: 400ms;
   -webkit-transition-delay: 700ms;
@@ -49,12 +54,8 @@ ul {
   -ms-transition-timing-function: ease-out;
   -ms-transition-duration: 400ms;
   -ms-transition-delay: 700ms;
-  -ms-transform: translateX(100%);
-  transition-property: transform;
-  transition-timing-function: ease-out;
-  transition-duration: 400ms;
-  transition-delay: 700ms;
-  transform: translateX(100%);
+  -ms-transform: translateX(100%); */
+  
 }
 
 .logo {
