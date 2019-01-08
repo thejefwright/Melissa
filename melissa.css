@@ -38,7 +38,7 @@ ul {
   justify-content: center;
   width: 100%;
   left: -100vw;
-  -webkit-transition-property: -webkit-transform;
+  /* -webkit-transition-property: -webkit-transform;
   -webkit-transition-timing-function: ease-out;
   -webkit-transition-duration: 400ms;
   -webkit-transition-delay: 700ms;
@@ -52,7 +52,7 @@ ul {
   transition-timing-function: ease-out;
   transition-duration: 400ms;
   transition-delay: 700ms;
-  transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0); */
   /* align-content: center; */
   
 }
