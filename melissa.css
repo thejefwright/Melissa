@@ -34,12 +34,7 @@ body {
   -ms-transition-timing-function: ease-out;
   -ms-transition-duration: 400ms;
   -ms-transition-delay: 700ms;
-  -ms-transform: translateX(100%);
-  transition-property: transform;
-  transition-timing-function: ease-out;
-  transition-duration: 400ms;
-  transition-delay: 700ms;
-  transform: translateX(100%);   */
+  -ms-transform: translateX(100%); */
 }
 
 .logo {
@@ -53,6 +48,11 @@ body {
   -webkit-transition-duration: 400ms;
   -webkit-transition-delay: 700ms;
   -webkit-transform: translateX(100%);
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  transition-duration: 400ms;
+  transition-delay: 700ms;
+  transform: translateX(100%);
   list-style: none;
   color: coral;
   font-size: 3em;
