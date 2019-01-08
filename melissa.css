@@ -53,6 +53,11 @@ body {
   transition-duration: 400ms;
   transition-delay: 700ms;
   transform: translateX(100%);
+  -moz-transition-property: transform;
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 400ms;
+  -moz-transition-delay: 700ms;
+  -moz-transform: translateX(100%);
   list-style: none;
   color: coral;
   font-size: 3em;
