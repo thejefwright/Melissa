@@ -8,16 +8,41 @@
   <link rel="stylesheet" type="text/css" media="screen" href="melissa.css" />
 </head>
 <body>
-  <nav class="nav">
-    <ul class="navul">
-      <li class="logo">Melissa Emerson</li>
-    </ul>
+  <nav class="nav" id="nav">
+    <div class="navlist">
+      <div class="logo">Melissa Emerson</div>
+    </div>
+    <div class="navlist">
+      <div class="navitems">Yoga</div>
+      <div class="navitems">Crossfit</div>
+      <div class="navitems">Red Wine</div>
+      <div class="navitems">Financial Accounting</div>
+    </div>
   </nav>
  <div class="background">
    <div class="content">
        <img class="headshot" src="/assets/melissa_headshot_square.jpg" alt="Melissa">
    </div>
  </div>
+<div id="about">
+  <h1>About Melissa</h1>
+  <p>Melissa loves red wine and yoga and crossfit. Her favorite favorite thing, however is financial accounting. She also enjoys blankets and pillows.</p>
+</div>
 
+
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var header = document.getElementById("nav");
+  var shadow = header.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset > shadow) {
+      header.classList.add("shadow");
+    } else {
+      header.classList.remove("shadow");
+    }
+  }
+  </script>
 </body>
 </html>
